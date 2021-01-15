@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MarvelChallenge</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_characters">Personajes</string>
+    <string name="title_events">Eventos</string>
+    <string name="title_marvel_challenge">Marvel Challenge</string>
+    <string name="character_avatar">Avatar del personaje</string>
+    <string name="loading">Cargando</string>
+    <string name="character_comics_label">COMICS EN LOS QUE APARECE</string>
+    <string name="action_close">Cerrar</string>
+    <string name="xxxx">XXXX</string>
+    <string name="event_avatar">Imagen del evento</string>
+    <string name="collapse_view">Expandir o colapsar vista para mas detalles</string>
+
+    <string name="facebook_application_id" translatable="false">4020780647932469</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb4020780647932469</string>
+</resources>
