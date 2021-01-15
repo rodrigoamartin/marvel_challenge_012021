@@ -1,7 +1,6 @@
 package com.rma.marvelchallenge.core.platform
 
 import android.util.Log
-import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -23,7 +22,7 @@ object DateUtils {
     fun toString(date: Date?): String {
         if (date == null) return ""
         return try {
-            DateFormat.getDateInstance(DateFormat.LONG).format(date)
+            return SimpleDateFormat("dd' de 'MMMM' 'yyyy", Locale.getDefault()).format(date)
         } catch (e: java.lang.Exception) {
             Log.e(TAG, "toString: error parsing date", e)
             ""
